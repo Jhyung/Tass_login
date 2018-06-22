@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js add express
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.1.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz: error:0906D06C:PEM routines:PEM_read_bio:no start line
+      at Object.createSecureContext (_tls_common.js:144:17)
+      at Object.exports.connect (_tls_wrap.js:1126:48)
+      at Agent.createConnection (https.js:119:22)
+      at Agent.createSocket (_http_agent.js:226:26)
+      at Agent.addRequest (_http_agent.js:184:10)
+      at new ClientRequest (_http_client.js:239:16)
+      at Object.request (https.js:272:10)
+      at Request.module.exports.Request.start (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:135242:32)
+      at Request.module.exports.Request.end (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:136012:10)
+      at end (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:135054:14)
+
+npm manifest: 
+  {
+    "name": "test_server",
+    "version": "1.0.0",
+    "main": "server.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
